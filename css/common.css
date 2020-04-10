@@ -1,0 +1,81 @@
+
+@font-face /* 갤럭시 북 폰트 */ {
+  font-family: Netflix Sans Rg;
+  src: url(../font/NetflixSans_W_Rg.woff2)
+}
+
+@font-face /* 갤럭시 북 폰트 */ {
+  font-family: Netflix Sans light;
+  src: url(../font/NetflixSans_W_Lt.woff2)
+}
+
+
+h1 {
+  font-family: Netflix Sans Rg, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  font-family: Netflix Sans Rg, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h3 {
+  font-family: Netflix Sans Rg, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 19.2px;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-family: Netflix Sans Rg, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.p_13 {
+  font-family: Netflix Sans Rg, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.h1_50 {
+  font-family: Netflix Sans Rg, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.h3_30 {
+  font-family: Netflix Sans Rg, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+/*  color  */
+
+.color_white {
+  color: white;
+}
+
+.color_black {
+  color: black;
+}
+
+.color_red {
+  color: #e50914;
+}
+
+
+
+/* text */
+
+.text_align_center {
+  text-align: center;
+}
