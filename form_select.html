@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box_h1::before {
+        content: "Hi";
+        color: red;
+      }
+      .box_h1::after {
+        content: "Welcome";
+        color: red;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/53dc0a0ec3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <form>
+      <div class="box">
+        <h1 class="box_h1">Hello</h1>
+      </div>
+      <i class="fas fa-globe"></i>
+      <select style="width: 100px; height: 40px;">
+        <option>한국어</option>
+        <option>English</option>
+        <option>Japanese</option>
+        <option>Chinese</option>
+      </select>
+    </form>
+  </body>
+</html>
