@@ -1,0 +1,147 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+input::placeholder {
+  color: #8c8c8c;
+}
+
+.login_section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/home/home_large.jpg);
+  background-size: cover;
+}
+
+.login_bg {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_body {
+  width: 450px;
+  height: 660px;
+  padding: 60px 68px 40px;
+  margin: 90px 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+}
+
+.login_form_wrap {
+  padding-bottom: 30px;
+}
+
+.login_form_wrap h1 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+.login_form_email {
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.login_form_email_input {
+  background: #333;
+  padding: 0 20px;
+  height: 50px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.login_form_password {
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.login_form_password_input {
+  background: #333;
+  padding: 0 20px;
+  height: 50px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.login_button {
+  text-align: center;
+  width: 100%;
+  border-radius: 4px;
+  margin: 24px 0 12px;
+  padding: 16px;
+  background: #e50914;
+}
+
+.login_form_help {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.remember_lable {
+  color: #b3b3b3;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.remember_input {
+  height: 16px;
+  width: 16px;
+}
+
+.remember_help {
+  font-size: 13px;
+  font-weight: 500;
+  padding-top: 2px;
+  color: #b3b3b3;
+  cursor: pointer;
+}
+
+.content_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content_facebook_logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.content_facebook_login {
+  color: #737373;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.content_netflix_join {
+  color: #737373;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.content_netflix_join a {
+  color: #fff;
+}
+
+.content_recaptcha p {
+  margin-top: 11px;
+  font-size: 13px;
+  color: #8c8c8c;
+  text-align: left;
+}
+
+.content_recaptcha button {
+  border: none;
+  color: #0071eb;
+  cursor: pointer;
+  display: inline;
+  padding: 0;
+}
