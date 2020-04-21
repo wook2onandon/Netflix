@@ -1,73 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netflix</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
 
+    <!--사이드 메타 태그 -->
+    <meta name="description" content="Netflix web site" />
+    <meta name="keywords" content="Netflix, Video" />
+    <meta name="author" content="wook" />
 
-  <!--사이드 메타 태그 -->
-  <meta name="description" content="Netflix web site">
-  <meta name="keywords" content="Netflix, Video">
-  <meta name="author" content="wook">
+    <!-- 브라우저 css 링크 -->
+    <link rel="stylesheet" type="text/css" href="css/destyle.css" />
+    <!-- 초기화 css -->
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <!-- 공통 css -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
 
+    <script
+      src="https://kit.fontawesome.com/53dc0a0ec3.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- 브라우저 css 링크 -->
-  <link rel="stylesheet" type="text/css" href="css/destyle.css"> <!-- 초기화 css -->
-  <link rel="stylesheet" type="text/css" href="css/common.css"> <!-- 공통 css -->
-  <link rel="stylesheet" type="text/css" href="css/index.css">
-  <link rel="stylesheet" type="text/css" href="css/login.css">
+    <style>
+      @media screen and (max-width: 738px) {
 
-  <script src="https://kit.fontawesome.com/53dc0a0ec3.js" crossorigin="anonymous"></script>
+        .login_section {
+          height: auto;
+        }
 
-</head>
-<body>
-  <header class="home_header">
-    <nav class="nav_logo">
-      <img src="img/home/logo.svg" id="logo">
-    </nav>
-  </header>
+        .home_header {
+          height: 75px;
+        }
 
-  <main>
-    <section class="login_section">
-      <div class="login_bg">
-        <div class="login_body">
-          <div class="login_container">
-            <div class="login_form_wrap">
-              <h1>로그인</h1>
-              <form class="login_form">
-                <div class="login_form_email">
-                  <input type="text" id="login_id" name="user_login_id" placeholder="이메일 주소 또는 전화번호"> 
-                </div>
-                <div class="login_form_password">
-                  <input type="password" id="login_password" name="user_login_password" placeholder="비밀번호">
-                </div>
-                <button class="login_button">로그인</button>
-                <div class="login_form_help">
-                  <div class="login_form_help_remember">
-                    <input class="remember_input" type="checkbox" id="remember_me">
-                    <lable class="remember_lable" for="remember_me">로그인 정보 저장</lable>
+        .login_bg {
+          width: 100%;
+          height: auto;
+          background-color: black;
+          padding: 20px 0 30px;
+        }
+
+        .login_body {
+          width: 100%;
+          height: 100%;
+          padding: 0 5%;
+        }
+
+        .home_header {
+          background-color: black;
+        }
+
+        .netflix_footer_login {
+          display: block;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <header class="home_header">
+      <nav class="nav_logo">
+        <img src="img/home/logo.svg" id="logo" />
+      </nav>
+    </header>
+
+    <main>
+      <section class="login_section">
+        <div class="login_bg">
+          <div class="login_body">
+            <div class="login_container">
+              <div class="login_form_wrap">
+                <h1>로그인</h1>
+                <form class="login_form">
+                  <div class="login_form_email">
+                    <input
+                      class="login_form_email_input"
+                      type="text"
+                      id="login_id"
+                      name="user_login_id"
+                      placeholder="이메일 주소 또는 전화번호"
+                    />
                   </div>
-                  <a>도움이 필요하신가요?</a>
+                  <div class="login_form_password">
+                    <input
+                      class="login_form_password_input"
+                      type="password"
+                      id="login_password"
+                      name="user_login_password"
+                      placeholder="비밀번호"
+                    />
+                  </div>
+                  <button class="login_button">로그인</button>
+                  <div class="login_form_help">
+                    <div class="login_form_help_remember">
+                      <input
+                        class="remember_input"
+                        type="checkbox"
+                        id="remember_me"
+                      />
+                      <lable class="remember_lable" for="remember_me"
+                        >로그인 정보 저장</lable
+                      >
+                    </div>
+                    <a class="remember_help">도움이 필요하신가요?</a>
+                  </div>
+                </form>
+              </div>
+              <div class="content_container">
+                <button class="content_facebook_login">
+                  <img
+                    class="content_facebook_logo"
+                    src="img/home/facebook.png"
+                  />Facebook으로 로그인
+                </button>
+                <div class="content_netflix_join">
+                  Netflix 회원이 아닌가요? <a>지금 가입하세요.</a>
                 </div>
-              </form>
-  
+                <div class="content_recaptcha">
+                  <p>
+                    이 페이지는 Google reCAPTCHA의 보호를 받아<br />
+                    사용자가 로봇이 아님을 확인합니다.
+                    <button>자세히 알아보기</button>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div>
-              <div>Facebook으로 로그인</div>
-              <div>Netflix 회원이 아닌가요? 지금 가입하세요.</div>
-              <div>이 페이지는 Google reCAPTCHA의 보호를 받아 사용자가 로봇이 아님을 확인합니다. 자세히 알아보기</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="netflix_footer_login">
+      <div class="netflix_footer_container_login">
+        <div class="netflix_footer_wrap">
+          <div class="netflix_footer_content">
+            <p><a>질문이 있으신가요? 고객 센터에 문의하세요.</a></p>
+            <ul class="netflix_footer_list_login">
+              <li>기프트카드 약관</li>
+              <li>이용 약관</li>
+              <li>개인정보 처리방침</li>
+            </ul>
+            <div class="netflix_footer_language">
+              <label for="select_language">
+                <i class="fas fa-globe"></i>
+              </label>
+              <select id="select_language" class="footer_select" onchange="window.open(options[selectedIndex].value);">
+                <option selected value="https://netflix.com/kr/" data-language="ko" data-country="KR">한국어 &#9660</option>
+                <option selected value="https://netflix.com/kr-en/" data-language="en" data-country="KR">English &#9660
+                </option>
+              </select>
             </div>
           </div>
         </div>
       </div>
-
-    </section>
-
-  </main>
   
-  <footer>
-
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
