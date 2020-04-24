@@ -394,13 +394,9 @@ body {
   flex-direction: column;
 }
 
-.home_faq_container h1 {
-  margin-bottom: 0.5rem;
-}
-
 .home_faq_list {
   width: 75%;
-  margin: 2em auto;
+  margin: 22.5px auto;
   max-width: 815px;
   padding: 0;
   display: block;
@@ -411,20 +407,6 @@ body {
   margin: 0 0 8px 0;
   display: block;
 }
-
-.home_faq_question {
-  padding: 20px 57px 20px 31px;
-  margin-bottom: 1px;
-  font-weight: 400;
-  position: relative;
-  width: 100%;
-  border: 0;
-  display: block;
-  text-align: left;
-  background: #303030;
-  cursor: pointer;
-}
-
 
 .faq_email_container {
   display: flex;
@@ -537,6 +519,50 @@ body {
   font-size: 0.75em;
   line-height: 1em;
 }
+
+/* accodion */
+
+.home_faq_question {
+  width: 100%;
+  height: 60px;
+  background-color: #303030;
+  text-align: left;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 31px 20px 31px;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.home_faq_question::after {
+  width: 18px;
+  height: 18px;
+  background-image: url(../img/home/icon_plus.svg);
+  content: '';
+  transition: transform 0.5s;
+}
+
+.home_faq_answer {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #303030;
+  color: white;
+  display: none;
+  overflow: hidden;
+  text-align: left;
+}
+
+.active::after {
+  transform: rotate(45deg);
+}
+
 
 
 
@@ -712,11 +738,53 @@ body {
     min-height: 100px;
     width: 100%;
   }
+/*  faq  */
 
-  /*  faq  */
   .home_faq_list {
     width: 90%;
     max-width: 815px;
+  }
+
+  .faq_email {
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .faq_email input {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 60px;
+  }
+
+  .faq_email button {
+    border-radius: 4px;
+    width: 180px;
+    height: 44px;
+    line-height: 18px;
+    font-size: 18px;
+  }
+  
+  .faq_email_container p {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .home_faq_question {
+    padding: 16px 24px 16px 24px;
+  }
+  
+  .home_faq_answer {
+    font-size: 20px;
+  }
+
+  .home_faq_question h2 {
+    font-size: 20px;
+  }
+
+  .home_faq_answer h2 {
+    font-size: 20px;
   }
 }
 
@@ -857,6 +925,18 @@ body {
     margin-bottom: 20px;
     font-size: 18px;
   }
+
+
+  .home_faq_question {
+    width: 100%;
+    height: 60px;
+  }
+  
+  .home_faq_answer {
+    width: 100%;
+    height: auto;
+  }
+  
 }
 
 @media screen and (max-width:500px) {
