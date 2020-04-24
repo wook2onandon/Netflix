@@ -586,7 +586,10 @@ body {
   transform: rotate(45deg);
 }
 
-
+input::placeholder {
+  text-align: left;
+  font-size: 16px;
+}
 
 
 
@@ -620,6 +623,8 @@ body {
     margin-bottom: 20px;
     border-radius: 4px;
     height: 60px;
+    max-width: 500px;
+    width: 100%;
   }
 
   .form_email button {
@@ -780,6 +785,7 @@ body {
 
   .faq_email input {
     width: 100%;
+    max-width: 500px;
     margin-bottom: 20px;
     border-radius: 4px;
     height: 60px;
@@ -879,7 +885,7 @@ body {
 
   .home_hero_h1 {
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .home_hero_h2 {
