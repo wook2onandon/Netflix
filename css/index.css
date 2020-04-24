@@ -1005,10 +1005,10 @@ input::placeholder {
 @media screen and (max-width:420px) {
 
   .home_faq_question h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .home_faq_answer h2 {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
