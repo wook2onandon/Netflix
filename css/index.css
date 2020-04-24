@@ -939,6 +939,12 @@ body {
   
 }
 
-@media screen and (max-width:500px) {
-  
+@media screen and (max-width:420px) {
+  .home_faq_question h2 {
+    font-size: 14px;
+  }
+
+  .home_faq_answer h2 {
+    font-size: 14px;
+  }
 }
