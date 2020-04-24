@@ -803,9 +803,16 @@ body {
   }
 
   .hero_container {
-    padding-top: 15%;
+    padding-top: 10%;
   }
 
+  .home_hero_h1 {
+    margin-bottom: 10px;
+  }
+
+  .home_hero_h2 {
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width:549px) {
