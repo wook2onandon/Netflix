@@ -1073,4 +1073,8 @@ input::placeholder {
   .home_faq_answer h2 {
     font-size: 15px;
   }
+
+  .hero_content_wrap {
+    padding-top: 75px;
+  }
 }
