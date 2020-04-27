@@ -274,7 +274,7 @@ body {
   display: flex;
   align-items: center;
   width: 60%;
-  min-width: 265px;
+  min-width: 260px;
   border: 2px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 0 2em 0 #000000;
   border-radius: 0.75em;
@@ -844,6 +844,15 @@ input::placeholder {
 }
 
 @media screen and (max-width:740px) {
+
+  .home_hero {
+    height: auto;
+  }
+
+  .hero_content_wrap {
+    padding-top: 0;
+  }
+
   .form_email input {
     height: 44px;
   }
@@ -853,7 +862,7 @@ input::placeholder {
   }
 
   .hero_container {
-    padding-top: 10%;
+    padding-top: 12%;
   }
 
   .home_hero_h1 {
