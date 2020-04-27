@@ -247,10 +247,14 @@ body {
 
 .home_down_animation_container {
   margin: -8% 0 -4% -15%;
-  min-height: 100px;
   width: 100%;
   position: relative;
-  overflow: hidden;
+}
+
+.home_down_img_wrap {
+  width: 100%;
+  min-height: 100px;
+  box-sizing: border-box;
 }
 
 .home_down_img {
@@ -263,14 +267,14 @@ body {
   position: absolute;
   left: 50%;
   bottom: 8%;
-  padding: 0.5em 0.75em;
+  padding: 0.25em 0.65em;
   transform: translateX(-50%);
   margin: 0 auto;
   background: black;
   display: flex;
   align-items: center;
   width: 60%;
-  min-width: 15em;
+  min-width: 265px;
   border: 2px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 0 2em 0 #000000;
   border-radius: 0.75em;
@@ -278,8 +282,6 @@ body {
 
 .home_down_card_animation_img {
   margin: 0 1em 0 0;
-  flex-grow: 0;
-  flex-shrink: 0;
 }
 
 .home_down_card_animation_img img {
@@ -305,6 +307,17 @@ body {
   font-size: 0.9em;
   color: #0071eb;
   display: block;
+}
+
+.home_down_card_animation_loading_wrap {
+  width: 60px;
+  height: 70px;
+  box-sizing: border-box;
+}
+
+.home_down_card_animation_loading {
+  width: 100%;
+  height: auto;
 }
 
 /*  device  */
@@ -720,8 +733,19 @@ input::placeholder {
 
   .home_down_animation_container {
     margin: 0 auto;
-    min-height: 100px;
     width: 100%;
+  }
+
+  .home_down_img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: bottom;
+  }
+
+  .home_down_card_animation_img img {
+    height: 4em;
   }
 
   /*  device  */
@@ -916,6 +940,32 @@ input::placeholder {
 
   .home_down_content h2 {
     font-size: 18px;
+  }
+
+  .home_down_img_wrap {
+    min-height: 300px;
+    width: 100%; 
+
+  }
+
+  .home_down_img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: bottom;
+  }
+
+  .home_down_card_animation_img img {
+    height: 3em;
+  }
+
+  .home_down_card_animation_text_01 {
+    font-size: 14px;
+  }
+
+  .home_down_card_animation_text_02 {
+    font-size: 12px;
   }
 
   .home_device_content h1 {
