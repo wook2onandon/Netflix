@@ -30,14 +30,14 @@
       var accodion_button = document.getElementsByClassName("home_faq_question");
 
       if (target.nextElementSibling.style.display == "block") {
-        target.nextElementSibling.style.display = "none";
+        target.nextElementSibling.style.display = "";
         target.classList.toggle("active");
       }
       
       else {
 
         for (i=0; i < panel.length; i++) {
-          panel[i].style.display="none";
+          panel[i].style.display="";
 
           accodion_button[i].classList.remove("active");
         }
@@ -101,7 +101,9 @@
         </div>
         <div class="home_down_img_container">
           <div class="home_down_animation_container">
-            <img class="home_down_img" src="img/home/down.jpg">
+            <div class="home_down_img_wrap">
+              <img class="home_down_img" src="img/home/down.jpg">
+            </div>
             <div class="home_down_card_animation">
               <div class="home_down_card_animation_img">
                 <img src="img/home/boxshot.png">
@@ -109,6 +111,9 @@
               <div class="home_down_card_animation_text">
                 <div class="home_down_card_animation_text_01">기묘한 이야기</div>
                 <div class="home_down_card_animation_text_02">저장 중...</div>
+              </div>
+              <div class="home_down_card_animation_loading_wrap">
+                <img class="home_down_card_animation_loading" src="img/home/download-icon.gif">
               </div>
             </div>
           </div>
