@@ -972,7 +972,6 @@ input::placeholder {
     width: 100%;
     margin-bottom: 20px;
     border-radius: 4px;
-    height: 60px;
   }
 
   .faq_email button {
@@ -997,15 +996,22 @@ input::placeholder {
     height: auto;
   }
   
+  .home_faq_question h2 {
+    font-size: 18px;
+  }
+
+  .home_faq_answer h2 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width:420px) {
 
   .home_faq_question h2 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .home_faq_answer h2 {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
