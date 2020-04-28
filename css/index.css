@@ -595,6 +595,10 @@ body {
   text-align: left;
 }
 
+.home_faq_answer h2 {
+  line-height: 34px;
+}
+
 .active::after {
   transform: rotate(45deg);
 }
@@ -840,6 +844,7 @@ input::placeholder {
 
   .home_faq_answer h2 {
     font-size: 20px;
+    line-height: 28px;
   }
 }
 
@@ -1061,6 +1066,7 @@ input::placeholder {
 
   .home_faq_answer h2 {
     font-size: 18px;
+    line-height: 24px;
   }
 }
 
@@ -1072,6 +1078,7 @@ input::placeholder {
 
   .home_faq_answer h2 {
     font-size: 15px;
+    line-height: 20px;
   }
 
   .hero_content_wrap {
