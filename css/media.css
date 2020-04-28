@@ -1,0 +1,538 @@
+@media screen and (max-width:949px) {
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .form_email_container {
+    flex-direction: column-reverse;
+  }
+
+  .form_email_p {
+    margin-bottom: 20px;
+  }
+
+  .form_email {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .form_email input {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 60px;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .form_email button {
+    border-radius: 4px;
+    width: 180px;
+    height: 44px;
+    line-height: 18px;
+    font-size: 18px;
+  }
+
+  /* main */
+
+  .home_tv {
+    padding: 50px 5%;
+  }
+
+  .home_tv_container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  
+  .home_tv_content {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home_tv_content h1 {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+  }
+  
+  .home_tv_content h2 {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+  }
+  
+  .home_tv_img_container {
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+  }
+
+  .home_tv_animation_container {
+    margin: 0 auto;
+    min-height: 100px;
+    width: 100%;
+  }
+
+  /*  down  */
+
+  .home_down {
+    padding: 50px 5%;
+  }
+
+  .home_down_container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  
+  .home_down_content {
+    width: 80%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home_down_content h1 {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+  }
+  
+  .home_down_content h2 {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+  }
+
+  .home_down_img_container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+  }
+
+  .home_down_animation_container {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .home_down_img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: bottom;
+  }
+
+  .home_down_card_animation_img img {
+    height: 4em;
+  }
+
+  /*  device  */
+
+  .home_device {
+    padding: 50px 5%;
+  }
+
+  .home_device_container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  
+  .home_device_content {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home_device_content h1 {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+  }
+  
+  .home_device_content h2 {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+  }
+  
+  .home_device_img_container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+  }
+
+  .home_device_animation_container {
+    margin: 0 auto;
+    min-height: 100px;
+    width: 100%;
+  }
+/*  faq  */
+
+  .home_faq_list {
+    width: 90%;
+    max-width: 815px;
+  }
+
+  .faq_email {
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .faq_email input {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 60px;
+  }
+
+  .faq_email button {
+    border-radius: 4px;
+    width: 180px;
+    height: 44px;
+    line-height: 18px;
+    font-size: 18px;
+  }
+  
+  .faq_email_container p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 0 10%;
+  }
+
+  .home_faq_question {
+    padding: 16px 24px 16px 24px;
+  }
+  
+  .home_faq_answer {
+    font-size: 20px;
+  }
+
+  .home_faq_question h2 {
+    font-size: 20px;
+  }
+
+  .home_faq_answer h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width:740px) {
+
+  .home_hero {
+    height: auto;
+  }
+
+  .hero_content_wrap {
+    padding-top: 0;
+  }
+
+  .form_email input {
+    height: 44px;
+  }
+
+  .faq_email input {
+    height: 44px;
+  }
+
+  .hero_container {
+    padding-top: 12%;
+  }
+
+  .home_hero_h1 {
+    margin-bottom: 15px;
+  }
+
+  .home_hero_h2 {
+    margin-bottom: 15px;
+  }
+
+  .home_tv {
+    padding: 30px 5%;
+  }
+
+  .home_down {
+    padding: 30px 5%;
+  }
+
+  .home_device {
+    padding: 30px 5%;
+  }
+
+  .login_section {
+    height: auto;
+  }
+
+  .home_header {
+    height: 75px;
+  }
+
+  .login_bg {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 20px 0 30px;
+  }
+
+  .login_body {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+  }
+
+  .home_header_login {
+    background-color: black;
+  }
+
+  .netflix_footer_login {
+    display: block;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width:549px) {
+  
+  #logo {
+    width: 120px;
+    height: 24px;
+  }
+
+  .home_header {
+    padding: 20px 20px;
+  }
+
+  .home_header button {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  .home_hero {
+    height: 512px;
+  }
+
+  .hero_container {
+    padding: 0 5%;
+  }
+
+  .home_hero_h1 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  .home_hero_h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .home_hero_h2 span {
+    display: block;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+
+  .home_tv_content h1 {
+    font-size: 26px;
+  }
+
+  .home_tv_content h2 {
+    font-size: 18px;
+  }
+
+  .home_down_content h1 {
+    font-size: 26px;
+  }
+
+  .home_down_content h2 {
+    font-size: 18px;
+  }
+
+  .home_down_img_wrap {
+    min-height: 300px;
+    width: 100%;
+  }
+
+  .home_down_img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: bottom;
+  }
+
+  .home_down_card_animation_img img {
+    height: 3em;
+  }
+
+  .home_down_card_animation_text_01 {
+    font-size: 14px;
+  }
+
+  .home_down_card_animation_text_02 {
+    font-size: 12px;
+  }
+
+  .home_device_content h1 {
+    font-size: 26px;
+  }
+
+  .home_device_content h2 {
+    font-size: 18px;
+  }
+
+
+
+  .form_email {
+    width: 100%;
+  }
+
+  .form_email input {
+    width: 100%;
+  }
+
+  .form_email_p {
+    font-size: 18px;
+    width: 80%;
+    line-height: 24px;
+  }
+
+  /*  faq  */
+  
+  .home_faq {
+    padding: 0;
+  }
+
+  .home_faq_container h1 {
+    margin-top: 40px;
+    font-size: 26px;
+  }
+
+  .home_faq_list {
+    width: 100%;
+    max-width: 815px;
+  }
+
+  .faq_email_container {
+    flex-direction: column-reverse;
+  }
+
+  .faq_email {
+    width: 80%;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .faq_email input {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+
+  .faq_email button {
+    border-radius: 4px;
+    width: 180px;
+    height: 44px;
+    line-height: 18px;
+    font-size: 18px;
+  }
+  
+  .faq_email_container {
+    margin-top: 0;
+  }
+
+  .home_faq_question {
+    width: 100%;
+    height: 60px;
+  }
+  
+  .home_faq_answer {
+    width: 100%;
+    height: auto;
+  }
+  
+  .home_faq_question h2 {
+    font-size: 18px;
+  }
+
+  .home_faq_answer h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .netflix_footer_container {
+    padding: 70px 0;
+  }
+
+  .netflix_footer_content {
+    width: 80%;
+  }
+}
+
+
+
+@media screen and (max-width:420px) {
+
+  .home_faq_question h2 {
+    font-size: 15px;
+  }
+
+  .home_faq_answer h2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .home_faq_question::after {
+    width: 15px;
+    height: 15px;
+  }
+
+  .hero_content_wrap {
+    padding-top: 75px;
+  }
+
+  .netflix_footer_content p {
+    text-align: center;
+  }
+
+  .netflix_footer_list li {
+    min-width: 0;
+    width: 32%;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .netflix_footer_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+}
