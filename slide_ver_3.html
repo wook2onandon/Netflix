@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" type="text/css" href="css/destyle.css">
+
+  <style>
+
+    h1 {
+      font-size: 36px;
+      line-height: 46px;
+      font-family: sans-serif;
+      color: white;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 24px;
+      font-family: sans-serif;
+      color: white;
+    }
+
+    .slide_container {
+      width: 100%;
+      height: 100vh;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .myslide {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: none;
+    }
+
+    .myslide:first-child {
+      display: block;
+    }
+
+    .button_prev {
+      position: absolute;
+      top: 50%;
+      left: 85px;
+      color: white;
+      width: 46px;
+      height: 46px;
+      background-image: url(img/naver/sprite.png);
+      background-size: 474px 1250px;
+      background-position: -296px -99px;
+    }
+
+    .button_next {
+      position: absolute;
+      top: 50%;
+      right: 85px;
+      color: white;
+      width: 46px;
+      height: 46px;
+      background-image: url(img/naver/sprite.png);
+      background-size: 474px 1250px;
+      background-position: -346px -99px;
+    }
+
+    .myslide_bg {
+      background-image: url(img/naver/slide1.jpeg);
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 150px;
+    }
+
+    .myslide_bg h1 {
+      margin-bottom: 40px;
+    }
+
+    .myslide_bg hr {
+      height: 1px;
+      width: calc(25% - 75px);
+      color: white;
+      padding-bottom: 20px;
+    }
+
+    .myslide_bg p {
+      margin-bottom: 40px;
+    }
+    
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+    <div class="slide_container">
+      <div class="myslide">
+        <div class="myslide_bg">
+          <h1>살의 가치를 높이는<br>기술을 연구합니다.</h1>
+          <hr>
+          <p>당신이 더 가치 있는 일에 몰입할 수 있도록<br> 삶을 더 깊이 이해하는 기술을 만들어갑니다.</p>
+          <p><strong>1</strong>&nbsp;&nbsp;|&nbsp;&nbsp;4</p>
+        </div>
+      </div>
+      <div class="myslide">
+        <div class="myslide_bg_2">
+
+        </div>
+      </div>
+      <div class="myslide">
+        <div class="myslide_bg_3">
+
+        </div>
+      </div>
+      <div class="myslide">
+        <div class="myslide_bg_4">
+
+        </div>
+      </div>
+      <a class="button_prev" onclick="slidePrev()"></a>
+      <a class="button_next" onclick="slideNext()"></a>
+      
+    </div>
+  
+  <script>
+
+
+    var slideIndex = 1; // 현재 슬라이드의 넘버
+    var mySlide = document.getElementsByClassName('myslide');
+    
+
+    function slidePrev() {
+      
+      console.log('mySlide.length');
+
+      for (i=0 ; i<mySlide.length; i++) {
+        mySlide[i].style.display="none"
+      }
+
+      if (slideIndex == 1) {
+        mySlide[mySlide.length - 1].style.display="block";
+        slideIndex = mySlide.length;
+      }
+      
+      else {
+        mySlide[slideIndex - 2].style.display="block";
+        slideIndex = slideIndex - 1;
+      }
+    }
+    
+
+
+
+    function slideNext() {
+
+      console.log('mySlide.length');
+
+      for (i=0 ; i<mySlide.length; i++) {
+        mySlide[i].style.display="none"
+      }
+
+      if (slideIndex == mySlide.length) {
+        mySlide[0].style.display="block";
+        slideIndex = 1;
+      }
+
+      else {
+        mySlide[slideIndex].style.display="block";
+        slideIndex = slideIndex + 1;
+      }
+    }
+
+  </script>
+
+</body>
+
+</html>
